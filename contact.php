@@ -1,10 +1,10 @@
 <?php
 
-    $to = "your@email.com"; // ENTER EMAIL HERE
+    $to = "raymond.kingjr@gmail.com"; // ENTER EMAIL HERE
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
     $headers = "From: $from";
-    $subject = "You have a message.";
+    $subject = "You have a message from SGT Code Web.";
 
     $fields = array();
     $fields{"name"} = "name";
