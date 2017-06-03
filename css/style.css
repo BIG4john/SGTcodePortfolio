@@ -572,7 +572,9 @@ header .container {
 	opacity: 1;
 }
 
-
+.shadow {
+	text-shadow: 3px 3px 5px #888888;
+}
 
 /* Landscape Phones */ 
 @media only screen and (min-width : 480px) {
