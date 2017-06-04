@@ -1,6 +1,6 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
-"I am SGT Code.", 
+"I am Raymond King.", 
 "Front-end Web Designer & Ideator."
 );
 var iSpeed = 120; // time delay of print out
@@ -296,5 +296,18 @@ typewriter();
                 });
             }
         });
-    });    
+    });
+    
 })();
+// GOOGLE MAP SCRIPT
+function initMap() {
+    var uluru = {lat: 37.5600000, lng: -122.3300000};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 4,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+}    

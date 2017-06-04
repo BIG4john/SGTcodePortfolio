@@ -95,7 +95,6 @@
 				<div class="col-xs-12 col-lg-2">
 					<img class="logo has-retina" src="images/SGTCodeLogoSM.png" alt="SGTCode">
 				</div>
-
 				<!-- Intro -->
 				<div class="typewriter col-xs-10 col-sm-9 col-lg-7">
 					<h2>introduction</h2>
@@ -103,7 +102,9 @@
 					<a href="#section1" class="scroll-to"></a>
 				</div>
 			</div><!-- END Hero Content -->
+
 		</div><!-- END Container -->
+
 	</section><!-- END Hero -->
 	
 
@@ -129,24 +130,39 @@
 
 			<!-- Skills -->
 			<div class="row">
-				<div class="col-xs-12 col-lg-8 col-lg-offset-2">
-
+				<div class="col-xs-12 col-lg-4 col-lg-offset-2">
 					<!-- Bar 1 -->
-					<div class="bar-title">HTML<span class="align-right">100%</span></div>
+					<div class="bar-title">HTML<span class="align-right"></span></div>
 					<div class="bar"><div class="bar-fill" data-percent="100%"></div></div>
 
 					<!-- Bar 2 -->
-					<div class="bar-title">CSS<span class="align-right">100%</span></div>
+					<div class="bar-title">JQuery<span class="align-right"></span></div>
 					<div class="bar"><div class="bar-fill" data-percent="100%"></div></div>
 
 					<!-- Bar 3 -->
-					<div class="bar-title">JQuery<span class="align-right">100%</span></div>
+					<div class="bar-title">BootStrap<span class="align-right"></span></div>
 					<div class="bar"><div class="bar-fill" data-percent="100%"></div></div>
 
 					<!-- Bar 4 -->
-					<div class="bar-title">Javascript<span class="align-right">100%</span></div>
+					<div class="bar-title">APIs<span class="align-right"></span></div>
+					<div class="bar"><div class="bar-fill" data-percent="100%"></div></div>
+				</div>
+				<div class="col-xs-12 col-lg-4">
+					<!-- Bar 1 -->
+					<div class="bar-title">CSS<span class="align-right"></span></div>
 					<div class="bar"><div class="bar-fill" data-percent="100%"></div></div>
 
+					<!-- Bar 2 -->
+					<div class="bar-title">Javascript<span class="align-right"></span></div>
+					<div class="bar"><div class="bar-fill" data-percent="100%"></div></div>
+
+					<!-- Bar 3 -->
+					<div class="bar-title">JSON<span class="align-right"></span></div>
+					<div class="bar"><div class="bar-fill" data-percent="100%"></div></div>
+
+					<!-- Bar 4 -->
+					<div class="bar-title">Git/GitHub<span class="align-right"></span></div>
+					<div class="bar"><div class="bar-fill" data-percent="100%"></div></div>
 				</div>
 			</div>
 		</section><!-- END About -->
@@ -322,8 +338,8 @@
 
 			<!-- Form -->
 			<div class="row padded-bottom">
-				<div class="col-xs-12 col-lg-8 col-lg-offset-2">
-					<h1><a href="mailto:raymond.kingjr@gmail.com">raymond.kingjr@gmail.com</a></h1>
+				<div class="col-xs-12 col-lg-4 col-lg-offset-2">
+					<h2 class="fa fa-envelope-o"><a href="mailto:raymond.kingjr@gmail.com"> raymond.kingjr@gmail.com</a></h2>
 					<p>Or just send me an email straight through here:</p>
 
 					<form id="contact" name="contact" method="post" novalidate="novalidate">
@@ -338,6 +354,7 @@
 						</fieldset>
 					</form>
 
+
 					<div id="success">
 						<p>Your message was sent successfully! I will be in touch as soon as I can.</p>
 					</div>
@@ -345,8 +362,13 @@
 					<div id="error">
 						<p>Something went wrong, try refreshing and submitting the form again.</p>
 					</div>
+				</div >
+				<div class="row">
+					<div id="map" class="col-xs-12 col-lg-4 map">					
+					</div>
 				</div>
 			</div>
+
 
 		</section><!-- END Contact -->
 	</div><!-- END Container -->
@@ -375,6 +397,7 @@
 	</footer><!-- END Footer -->
 
 	<!-- Javascript -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnZhcB963SSTGblOCB1uPv1tct5WAEg1A&callback=initMap"></script>
 	<script type="text/javascript">
 	function resizeNow() {
         var browserwidth = $(window).width();
@@ -387,5 +410,6 @@
 	</script>
 	<script src="js/plugins.js"></script>
 	<script src="js/main.js"></script>
+	
 </body>
 </html>
